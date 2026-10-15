@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nerfblastersmod",
+  "version": "1.0.0",
+  "name": "Nerf Blasters Mod",
+  "description": "A Minecraft mod that adds Nerf blasters and their darts.",
+  "authors": ["pokemongo2016coc"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pokemongo2016coc.nerfblastersmod.NerfBlastersMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "java": ">=17"
+  }
+}
